@@ -1,0 +1,90 @@
+.table-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.filter-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entry-count{
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.584);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.search-box {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.584);
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+th,
+td,
+tr {
+    border: 1px solid #c6c2c2;
+    padding: 10px;
+    height: 60px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e0dede;
+}
+  
+tbody tr:nth-child(even) {
+background-color: #f1ecec;
+}
+
+th button {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.view-btn {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #3692f4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

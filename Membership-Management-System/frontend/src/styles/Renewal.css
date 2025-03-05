@@ -1,0 +1,15 @@
+.expired{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f44336;
+    width: fit-content;
+    margin: auto;
+}
+
+.live{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #4CAF50;
+    width: fit-content;
+    margin: auto;
+}

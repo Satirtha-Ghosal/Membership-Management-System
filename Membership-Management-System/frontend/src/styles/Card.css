@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    gap: 5px;
+    height: 130px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 5px;
+    width: 30%;
+    min-width: fit-content;
+    border-radius: 10px;
+}
+
+.logo{
+    height: 100%;
+    background-color:rgb(79, 131, 227);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logo-dashboard-card{
+    height: 90%;
+    width: 90%;
+    color: white;
+}
+
+.desc{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+}

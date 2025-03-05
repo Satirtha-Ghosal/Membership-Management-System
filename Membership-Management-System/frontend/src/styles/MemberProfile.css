@@ -1,0 +1,50 @@
+.profile-container {
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.profile-heading {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.info-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.info-wrap {
+    display: flex;
+    align-items: center;
+    min-width: fit-content;
+    width: 400px;
+    gap: 5px;
+}
+
+.feature {
+    font-size: 20px;
+}
+
+.answer {
+    font-size: 20px;
+}
+
+.img-container {
+    border-radius: 5px;
+    height: 200px;
+
+    img {
+        border: 5px solid white;
+        box-shadow: 0 0 1px 0 black;
+        height: 200px;
+    }
+
+}
